@@ -1,5 +1,5 @@
 
-# CodingNomads Java Fundamentals # Jeff's Edit #3
+# CodingNomads Java Fundamentals # Jeff's Edit #3 (branch)
 
 This project contains a variety of textbook examples and labs focused on Java labs_examples.fundamentals.
 
