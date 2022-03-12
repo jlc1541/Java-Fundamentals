@@ -32,3 +32,18 @@ Cloning repository from Github
     3. Create new repository on Github
     4. Add new remote on local machine
     5. Push to new Github repository
+
+
+mkdir git_practice
+cd git_practice
+git init
+touch newfile.txt
+git add newfile.txt
+git remote https://github.com/jlc1541/git_practice.git
+git commit -m "git practice"
+git remote pmaster https://github.com/jlc1541/git_practice_2.git
+git push pmaster master
+git branch clonePractice
+git clone https://github.com/justjavac/free-programming-books-zh_CN.git
+git remote add clne https://github.com/jlc1541/cloning_practice.git
+git push clne clonePractice

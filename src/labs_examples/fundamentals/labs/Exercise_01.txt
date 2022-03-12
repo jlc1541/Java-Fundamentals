@@ -18,7 +18,50 @@ Fundamentals Exercise 1: CLI
          b. Use $ cat print contents of file
          c. Use $ grep to search for a word inside file
 
-Example Output (pwd):
-    1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
-       /Users/cadenmackenzie/Documents/CodingNomads
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~
+$ cd Documents/CodingNomads/labs/online-java-fundamentals
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals (master)
+$ mkdir Terminal_testing
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals (master)
+$ cd Terminal_testing/
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ touch file1.txt file2.txt file3.txt
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ pwd
+/c/Users/jeffr/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ ls
+file1.txt  file2.txt  file3.txt
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ mkdir newfolder
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ cp file1.txt ./newfolder/
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ mv file2.txt ./newfolder/
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ rm file1.txt
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ rm -r newfolder/
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ vim newfile.txt
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ cat newfile.txt
+This is the file I created with vim.
+
+jeffr@DESKTOP-LA0OLLN MINGW64 ~/Documents/CodingNomads/labs/online-java-fundamentals/Terminal_testing (master)
+$ grep created newfile.txt
+This is the file I created with vim.
 
