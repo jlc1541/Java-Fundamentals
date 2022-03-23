@@ -13,6 +13,16 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
+        float radius = 3.14f;
+        float pi = 3.14f;
+        int h = 5;
+
+        float vol = pi * h * (radius * radius);
+        float sArea = (2 * pi * radius) * ( radius + h);
+
+        System.out.println(vol);
+        System.out.println(sArea);
+
 
     }
 }

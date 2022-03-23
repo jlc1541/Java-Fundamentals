@@ -24,6 +24,11 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
+        int sInADay = 86400;
+        int userSeconds = days * sInADay;
+
+        System.out.println(userSeconds);
+
 
     }
 }
